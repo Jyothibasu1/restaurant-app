@@ -1,0 +1,37 @@
+.ingredients-Container{
+     padding-left: 350px;
+    padding-right:  8px ;
+}
+.Ingredients-TableContainer{
+    height: 88vh;
+    overflow-y: scroll;
+}
+.Ingredients-category{
+    margin-top: 4px;
+}
+.Ingrdnts-Card{
+    margin-top: 0.25rem;
+}
+.Ingrdnts-card-header{
+    padding-top: 16px; 
+}
+.Ingrdnts-card-header .MuiCardHeader-root {
+    display: flex;
+    align-items: center;
+}
+
+.Ingrdnts-card-header .MuiCardHeader-action {
+    margin-top: 4.8px;   
+}
+.Ingrdnts-TR{
+    cursor: pointer;
+}
+.Ingrdnts-TR:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Remove border for last row cells */
+.Ingrdnts-TR:last-of-type td,
+.Ingrdnts-TR:last-of-type th {
+    border: 0;
+}

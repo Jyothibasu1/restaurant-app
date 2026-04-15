@@ -1,0 +1,41 @@
+/* Container to center everything vertically and horizontally */
+.profile-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Inner card for user info */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Icon size */
+.profile-icon {
+  font-size: 9rem !important;
+  margin-bottom: 1rem;
+}
+
+/* User name */
+.profile-name {
+  padding: 1.25rem 0; /* equivalent to py-5 */
+  font-size: 2rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+}
+
+/* Email text */
+.profile-email {
+  font-size: 1rem;
+  color: #555; /* optional gray */
+}
+
+/* Logout button spacing */
+.profile-logout-btn {
+  margin: 2rem 0;
+}

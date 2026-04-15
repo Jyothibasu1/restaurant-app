@@ -1,0 +1,64 @@
+.CIC-card{
+     padding-left: 1.25rem /* 20px */;
+    padding-right: 1.25rem /* 20px */;
+}
+.CIC-imgCon{
+    text-align: center;
+}
+.CIC-img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.CIC-updateCon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CIC-updateCItem{
+    display: flex;
+    align-items: center;
+}
+.CIC-updateCItem > * + * {
+    margin-left: 4px;     
+}
+.CIC-ItemQuant{
+    width: 1.25rem;
+    height: 1.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CIC-item{
+    padding-top: 0.75rem ;
+}
+.CIC-item > * + * {
+    margin-left: 8px;  
+}
+.CIC-DC{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CIC-D{
+    width: 100%;
+}
+.CIC-D > * + * {
+    margin-top: 4px; /* 0.25rem = 4px */
+}
+@media (min-width: 1024px) {
+    .CIC-imgCon > * + * {
+        margin-left: 20px; 
+    }
+    .CIC-imgCon{
+        display: flex;
+    }
+    .CIC-DC {
+        width: 70%;   
+    }
+    .CIC-D > * + * {
+        margin-top: 12px;
+    }
+}

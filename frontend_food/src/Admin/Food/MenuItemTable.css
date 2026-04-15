@@ -1,0 +1,19 @@
+.MenuItemTableCon{
+    margin-top: 4px;
+}
+.MIT-category{
+    font-weight: 600;
+}
+.MIT-Ingredients{
+    padding-left: 20px;
+}
+.MIT-ingredientsId{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.MIT-ingredientsId2{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+/* AdminDashboard.css */
+
+.admin-dashboard-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .admin-dashboard-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+.restaurant-cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .restaurant-cards-grid {
+    gap: 0.5rem;
+  }
+}

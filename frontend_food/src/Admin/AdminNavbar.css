@@ -1,0 +1,46 @@
+.AN-con {
+    display: flex;               
+    justify-content: space-between;
+    padding-left: 20px;           
+    padding-right: 20px;
+    padding-top: 0.8rem;           
+    padding-bottom: 0.8rem;
+    background-color: #e91e63;     
+    z-index: 50;                   
+}
+
+.AN-div {
+    display: flex;         
+    align-items: center;    
+}
+
+.AN-div > * + * {
+    margin-left: 16px;
+}
+
+.AN-headCon{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.AN-headCon > * + * {
+    margin-left: 16px;
+}
+.AN-head{
+    font-weight: 600;
+     --tw-text-opacity: 1;
+    color: #d1d5db ;
+    font-size: 1.5rem ;
+}
+@media (min-width: 1024px) {
+    .AN-con {
+        display: none;
+         padding-left: 5rem /* 80px */;
+        padding-right: 5rem /* 80px */;
+        
+    }
+    .AN-headCon{
+         margin-right: 2.5rem 
+    }
+    
+}

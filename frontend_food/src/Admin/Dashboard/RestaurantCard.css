@@ -1,0 +1,11 @@
+.RestaurantCard-image{
+    height: 17rem;
+    width: 100%;
+    object-fit: cover;
+}
+.RestaurantCard-deleteRes{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}

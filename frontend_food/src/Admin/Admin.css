@@ -1,0 +1,18 @@
+.Admin-Con {
+    display: block; /* default for small screens */
+}
+.Admin-Route {
+    width: auto; /* default (mobile) */
+}
+
+/* Large screens (≥1024px) */
+@media (min-width: 1024px) {
+    .Admin-Con {
+        display: flex;              /* lg:flex */
+        justify-content: space-between; /* justify-between */
+    }
+    .Admin-Route {
+        width: 80vw; /* 80% of viewport width */
+    }
+}
+

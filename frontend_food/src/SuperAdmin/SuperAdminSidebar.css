@@ -1,0 +1,29 @@
+.SASB-Con{
+     width: 50vw;           
+    height: 100vh;            
+    display: flex;           
+    flex-direction: column; 
+    justify-content: center;  
+    font-size: 1.25rem;  
+}
+.SASB-Con > * + * {
+    margin-top: 32px;     
+}
+
+.SASB-Navigate{
+    display: flex;       
+    align-items: center;  
+    cursor: pointer;         
+    padding-left: 20px;      
+    padding-right: 20px;
+}
+.SASB-Navigate> * + * {
+    margin-left: 20px;      
+}
+
+/* Large screens (≥1024px) */
+@media (min-width: 1024px) {
+    .SASB-Con {
+        width: 20vw;   
+    }
+}

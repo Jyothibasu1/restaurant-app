@@ -1,0 +1,107 @@
+.CPR-Con{
+     padding-left: 1.25rem /* 20px */;
+    padding-right: 1.25rem /* 20px */;
+}
+.CPR-details{
+    color: #6b7280;     
+    padding-top: 8px;   
+    padding-bottom: 8px;
+    margin-top: 40px;   
+}
+.CPR-Img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.CPR-ResDtls{
+    padding-top: 0.75rem /* 12px */;
+    padding-bottom: 1.25rem /* 20px */;
+}
+.CPR-ResName{
+    font-size: 2.25rem /* 36px */;
+    line-height: 2.5rem /* 40px */;
+    font-weight: 600;
+}.CPR-ResDes{
+     --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1)) /* #6b7280 */;
+     margin-top: 0.25rem /* 4px */;
+}
+.CPR-ResAddCon{
+    margin-top:12px;
+}
+.CPR-ResAddCon > * + * {
+    margin-top: 12px; 
+}
+.CPR-ResAdd{
+     --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1)) /* #6b7280 */;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem /* 12px */;
+}
+.CPR-Info{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem /* 12px */;
+     --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity, 1)) /* #6b7280 */;
+}
+.CPR-OpnHr{
+    --tw-text-opacity: 1;
+    color: rgb(253 186 116 / var(--tw-text-opacity, 1)) /* #fdba74 */;
+}
+.CPR-Mi{
+   width: auto;
+}
+.CPR-Mi > * + * {
+    margin-top: 20px; 
+}
+
+.CPR-FORMCon{
+    padding-top: 40px;   
+    padding-bottom: 40px;
+}
+.CPR-FORMCon > * + * {
+    margin-top: 20px;      
+}
+.CPR-Sec2{
+    padding-top: 2rem ;
+    position: relative;
+}
+.CPR-FilterSide{
+    width: auto;
+}
+.CPR-FilterSide > * + * {
+    margin-top: 40px;
+}
+.CPR-FilterBox{
+    position: static;
+}
+.CPR-FilterBox {
+    filter: none; /* default behavior */
+}
+.CPR-FilterBox > * + * {
+    margin-top: 20px; 
+}
+
+/* Large screens (≥1024px) */
+@media (min-width: 1024px) {
+    .CPR-FilterBox {
+        position: sticky;
+        top: 112px;      
+    }
+    .CPR-Mi {
+        width: 80%;     
+        padding-left: 40px;
+    }
+    .CPR-FilterSide {
+        width: 20%;
+    }
+    .CPR-Sec2 {
+        display: flex;  
+    }
+    .CPR-Con {
+        padding-left: 80px;  /* lg:px-20 */
+        padding-right: 80px;
+    }
+}

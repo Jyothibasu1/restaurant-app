@@ -1,0 +1,11 @@
+.Favorite-heading{
+    padding-top: 5px;
+    font-size:x-large ;
+    font-weight: lighter;
+    text-align: center;
+}
+.favorites-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

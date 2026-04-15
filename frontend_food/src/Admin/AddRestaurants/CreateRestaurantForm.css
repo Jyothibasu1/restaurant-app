@@ -1,0 +1,81 @@
+.C_R_F-component{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    padding-right: 60px;
+    min-height:100vh;
+}
+.C_R_F-head{
+    font-weight: 700;
+    font-size: 1.5rem ;
+    line-height: 2rem;
+    text-align: center;
+     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.C_R_F-gap{
+   display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.C_R_F-grid1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.C_R_F-image{
+    position: relative;
+}
+.C_R_F-image-add{
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: 1px solid #4b5563;
+    border-radius: 6px;
+    
+}
+.C_R_F-image-text{
+    color: #9ca3af;
+}
+.C_R_F-progress{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.C_R_F-image-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.C_R_F-image-index{
+    position: relative;
+}
+.C_R_F-images-w{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .C_R_F-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+    .C_R_F-con {
+        max-width: 56rem;
+    }
+}

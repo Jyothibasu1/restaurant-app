@@ -1,0 +1,25 @@
+.Notification-Con {
+    padding-left: 1.25rem ;
+    padding-right: 1.25rem;
+}
+.Notification-Con > * + * {
+    margin-top: 20px;    
+}
+.Notification-Head{
+     padding-top: 1.25rem ;
+    padding-bottom: 1.25rem ;
+    font-weight: 700;
+     font-size: 1.5rem ;
+    line-height: 2rem ;
+    text-align: center;
+}
+.Notification-Card{
+     padding: 1.25rem ;  
+}
+/* Large screens (≥1024px) */
+@media (min-width: 1024px) {
+    .Notification-Con {
+        padding-left: 80px; 
+        padding-right: 80px;
+    }
+}

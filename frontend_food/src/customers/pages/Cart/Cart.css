@@ -1,0 +1,97 @@
+.Cart-Main{
+    justify-content: space-between;  
+}
+.Cart-Item{
+     padding-top: 40px;
+}
+.Cart-Item > * + * {
+    margin-top: 24px; 
+}
+.Cart-BDcon{
+   font-size: 0.875rem; 
+    padding-left: 20px;  
+    padding-right: 20px;
+}
+.Cart-BD{
+    font-weight: 200; 
+    padding-top: 20px;  
+    padding-bottom: 20px;
+}
+.Cart-BTCon > * + * {
+    margin-top: 12px;
+}
+.CartTotal{
+    display: flex;
+    justify-content: space-between;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity, 1)) ;
+}
+.Cart-Section2{
+     display: flex;            
+    justify-content: center;  
+    padding-left: 20px;       
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.Cart-delivAdd{
+    text-align: center;
+     font-weight: 600;
+      font-size: 1.5rem;
+    line-height: 2rem;
+     padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.Cart-add{
+    display: flex;
+    gap: 1.25rem ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Cart-AddaddCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem ;
+    width: 16rem ;
+}
+.Cart-AddaddCon{
+    display: flex;
+}
+.Cart-AddaddCon > * + * {
+    margin-left: 20px; 
+}
+.Cart-AddaddNew > * + * {
+    margin-top: 20px; 
+}
+.Cart-EmptyCon{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.Cart-EmptyDiv{
+    text-align: center;
+}
+.Cart-EmptyDiv > * + * {
+    margin-top: 20px; 
+}
+.Cart-EmptyHead{
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+@media (min-width: 1024px) {
+    .Cart-Main {
+        display: flex; 
+    }
+    .Cart-Item {
+        width: 30%;        
+        min-height: 100vh; 
+    }
+    .Cart-Section2 {
+        width: 70%;          
+        padding-bottom: 0;   
+    }
+}

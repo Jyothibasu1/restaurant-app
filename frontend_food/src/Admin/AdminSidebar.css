@@ -1,0 +1,27 @@
+.AdminSidebar-comp{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.25rem ;
+}
+.AdminSidebar-comp> * + * {
+    margin-top: 1.65rem;
+}
+.AdminSidebar-navigate{
+     padding-left: 1.25rem /* 20px */;
+    padding-right: 1.25rem /* 20px */;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.AdminSidebar-navigate > * + * {
+    margin-left: 20px;
+}
+
+@media (min-width: 1024px) {
+    .AdminSidebar-comp {
+        width: 20vw;             
+    }
+}

@@ -1,0 +1,12 @@
+.SuperAdmin-Con{
+    display: flex;
+    justify-content: space-between;
+}
+.SuperAdmin-div{
+    width: 80vw;
+}
+@media (min-width: 1024px) {
+    .SuperAdmin-Con {
+        display: flex;
+    }
+}

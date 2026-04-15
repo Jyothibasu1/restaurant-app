@@ -1,0 +1,11 @@
+.RestOrderComponent{
+    padding-left: 295px;
+    padding-right: 8px;
+}
+.orderStatus-Card{
+    padding: 20px;
+}
+.orderForm{
+    padding-top: 2.5rem /* 40px */;
+    padding-bottom: 2.5rem /* 40px */;
+}

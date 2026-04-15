@@ -1,0 +1,19 @@
+.AddCard-con{
+    display: flex;
+    width: 16rem;
+    padding: 1.25rem;
+}
+.AddCard-con > * + * {
+    margin-left: 20px;
+}
+.AddCard-headCon{
+    color:  #6b7280 ;
+}
+.AddCard-headCon > * + * {
+    margin-top: 12px; /* 0.75rem = 12px */
+}
+.AddCard-head{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #ffffff;
+}

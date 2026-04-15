@@ -1,0 +1,58 @@
+.ps-container {
+    min-height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ps-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.ps-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+}
+
+/* Desktop width */
+@media (min-width: 1024px) {
+    .ps-box {
+        width: 25%;
+    }
+}
+
+.ps-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5rem; 
+    font-weight: 600;
+}
+
+.ps-desc {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #9ca3af; 
+}
+
+.ps-tagline {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: #e5e7eb; 
+    font-size: 1.125rem;
+}
+
+.ps-button {
+    margin: 1rem 0;
+}
+
+.ps-icon {
+    font-size: 5rem;
+}

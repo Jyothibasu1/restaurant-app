@@ -1,0 +1,55 @@
+.MIC-con{
+    align-items: center;
+    justify-content: space-between;
+}
+.MIC-detailCon{
+    align-items: center;
+}
+.MIC-img{
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+}
+.MIC-detail{
+    min-width: none;
+}
+.MIC-detail > * + * {
+    margin-top: 4px; 
+}
+.MIC-itemName{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem ;
+}
+.MIC-itemDes{
+     --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity, 1)) /* #9ca3af */;
+}
+.MIC-form{
+    display: flex;
+    gap: 1.25rem /* 20px */;
+    flex-wrap: wrap;
+}
+.MIC-category{
+    padding-right: 20px;
+}
+.MIC-btn{
+    padding-top: 20px;
+}
+@media (min-width: 1024px) {
+    .MIC-con {
+        display: flex;
+    }
+    .MIC-detailCon{
+        display: flex;
+    }
+    .MIC-detailCon > * + * {
+        margin-left: 20px;
+    }
+    .MIC-detail {
+        min-width: 42rem;
+    }
+    .MIC-detail > * + * {
+        margin-top: 20px;
+    }
+}

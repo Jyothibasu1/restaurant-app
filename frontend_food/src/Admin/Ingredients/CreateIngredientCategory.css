@@ -1,0 +1,11 @@
+.CIC-con{
+    padding: 20px;
+}
+.CIC-head{
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity, 1)) /* #9ca3af */;
+    text-align: center;
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+    padding-bottom: 2.5rem;
+}

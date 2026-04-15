@@ -1,0 +1,72 @@
+.AddMenuForm-container{
+    padding-left: 380px;
+    padding-right: 1.25rem;
+    min-height: 100vh;
+    padding-bottom: 1.25rem;
+}
+.AddMenuForm-head{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem ;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.AddMenuForm-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+.AddMenuForm-label{
+    position: relative;
+}
+.AddMenuForm-AddImage{
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border: 1px;
+    border-radius: 6px;
+    opacity: 1;
+    border-color: #4b5563;
+}
+.AddMenuform-text{
+    color: white;
+}
+.AddMenuForm-progress{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddMenuForm-image-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.AddMenuForm-image-position{
+    position: relative;
+}
+.AddMenuForm-imageIndex{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+@media (min-width: 1024px) {
+    .AddMenuForm-container {
+        padding-left: 128px; 
+        padding-right: 128px;
+        display: flex;      
+        justify-content: center; 
+        align-items: center; 
+    }
+}

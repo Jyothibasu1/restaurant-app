@@ -1,0 +1,21 @@
+.OC-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+}
+.OC-con{
+    display: flex;
+    align-items: center;
+}
+.OC-con > * + * {
+    margin-left: 20px; 
+}
+.OC-img{
+    width: 4rem;
+    height: 4rem;
+}
+.OC-price{
+     --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity, 1)) /* #9ca3af */;
+}

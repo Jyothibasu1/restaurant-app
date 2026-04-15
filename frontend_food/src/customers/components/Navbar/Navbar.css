@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+li{
+    list-style: none;
+}
+
+.logo{
+    font-weight: 600;
+    color: #d1d5db;    
+    font-size: 1.5rem;
+}
+
+.Nav-container{
+     display: flex;                   
+    justify-content: space-between; 
+    padding-left: 20px;             
+    padding-right: 20px;
+    padding-top: 0.8rem;             
+    padding-bottom: 0.8rem;
+    background-color: brown;      
+    z-index: 50;  
+}
+.home{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.home > * + * {
+    margin-left: 16px; 
+}
+.Nav-HC{
+    display: flex;         
+    align-items: center;
+}
+.Nav-HC > * + * {
+    margin-left: 16px;   
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation > * + * {
+    margin-left: 8px;  
+}
+
+.user{
+    display: flex;
+    align-items: center;   
+}
+.user > * + * {
+    margin-left: 8px;   
+}
+.profile{
+    font-size: larger;
+    cursor: pointer;
+}
+.Nav-CartIcon{
+    font-size: 2rem;
+}
+
+
+/* Large screens (≥1024px) */
+@media (min-width: 1024px) {
+    .navigation > * + * {
+        margin-left: 40px; 
+    }
+    .home {
+        margin-right: 40px;
+    }
+    .Nav-container {
+        padding-left: 80px;           
+        padding-right: 80px;
+    }
+}

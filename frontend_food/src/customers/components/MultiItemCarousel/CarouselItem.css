@@ -1,0 +1,26 @@
+.container-car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-car{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+   object-position: center;
+    
+}
+.text-car{
+    padding-top: 5px;
+    font-weight:bolder ;
+    font-size: xx-large;
+    color: gray;
+}
+@media (min-width: 1024px) {
+    .img-car {
+        width: 14rem;
+        height: 14rem;
+    }
+}

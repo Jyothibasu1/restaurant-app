@@ -1,0 +1,15 @@
+.CC-con{
+    padding: 20px;
+}
+.CC-head{
+    color:  #9ca3af;
+    text-align: center;
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+    padding-bottom: 40px;
+}
+.CC-Form > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.25rem /* 20px */ * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.25rem /* 20px */ * var(--tw-space-y-reverse));
+}

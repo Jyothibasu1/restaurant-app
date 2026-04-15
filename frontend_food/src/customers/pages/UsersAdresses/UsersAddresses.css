@@ -1,0 +1,25 @@
+.UsersAddresses-Con{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.UsersAddresses-Head{
+     font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+    text-align: center;
+    padding-top: 1.75rem /* 28px */;
+    padding-bottom: 1.75rem /* 28px */;
+    font-weight: 600;
+}
+.UsersAddresses-Card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     gap: 0.75rem /* 12px */;
+}
+@media (min-width: 1024px) {
+    .UsersAddresses-Con {
+        padding-left: 40px;    
+        padding-right: 40px;
+    }
+}

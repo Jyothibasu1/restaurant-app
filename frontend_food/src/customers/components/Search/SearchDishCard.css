@@ -1,0 +1,42 @@
+.SDC-Con{
+    margin: 0.75rem ;
+}
+.SDC-header{
+     font-size: 0.875rem ;
+    line-height: 1.25rem ;
+}
+.SDC-text{
+    font-size: 1rem ;
+    line-height: 1.5rem ;
+}
+.SDC-con{
+    display: flex;
+    justify-content: space-between;
+}
+.SDC-details{
+    width: 70%;
+}
+.SDC-details > * + * {
+    margin-top: 8px; 
+}
+.SDC-IN{
+    font-weight: 600;
+}
+.SDC-ID{
+    color: #9ca3af ;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.SDC-Img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SDC-Img > * + * {
+    margin-top: 8px; 
+}
+.SD-Img{
+    width: 5rem;
+    height: 5rem;
+}

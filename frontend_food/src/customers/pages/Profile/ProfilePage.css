@@ -1,0 +1,28 @@
+.profile-page {
+  display: block;
+}
+
+.sidebar {
+  position: sticky;
+  height: 80vh; 
+  width: 100%;
+}
+
+.main-content {
+  width: 90%;
+  
+}
+
+@media (min-width: 1024px) {
+  .profile-page {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sidebar {
+    width: 20%;
+  }
+  .main-content {
+    width: 80%;
+  }
+}

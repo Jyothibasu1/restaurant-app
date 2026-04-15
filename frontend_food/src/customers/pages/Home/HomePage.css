@@ -1,0 +1,135 @@
+.banner{
+    background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    z-index: -50;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+  width: 50vw;
+  z-index: 10;
+  text-align: center;
+}
+.logo-text{
+  font-size:1.5rem;
+  font-weight: 700;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.text-description{
+  z-index: 10;
+  color: #d1d5db;
+  font-size: 1.25rem;
+}
+
+.cover{
+    width: 100%;
+    height: 90vh;
+    background: #000;
+    opacity: .4;
+    position: absolute;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fadout {
+    /* border: 1px solid red; */
+    z-index: 20;
+     background-color: transparent;
+     background-image: linear-gradient(
+       180deg,
+       hsla(0, 0%, 8%, 0) 0,
+       hsla(0, 0%, 8%, 0.15) 15%,
+       hsla(0, 0%, 8%, 0.35) 29%,
+       hsla(0, 0%, 8%, 0.58) 44%,
+       #131313 68%,
+       #0D0D0D0D
+     );
+     background-position: 0 top;
+     background-repeat: repeat-x;
+     background-size: 100% 100%;
+     bottom: -3rem;
+     height: 10vw;
+     opacity: 1;
+     /* top: auto; */
+     width: 100%;
+     left: 0;
+     position: absolute;
+     right: 0;
+     /* z-index: 8; */
+     /* background-color: aqua; */
+   }
+   .section-2{
+    padding: 40px;
+   }
+   .t-meals{
+    font-size: xx-large;
+    font-weight: lighter;
+    color: gray;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-align: center;
+   }
+   .section-3{
+    padding-left: 20px;  
+    padding-right: 20px;
+   }
+   .favorites{
+    font-size: xx-large;
+    font-weight: lighter;
+    color: gray;
+    padding-top: 3px;
+    text-align: center;
+   }
+   .restaurant-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   }
+
+  
+  /* Large screens (≥1024px) */
+@media (min-width: 1024px) {
+    .logo-text {
+        font-size: 4.5rem;
+    }
+     .text-description {
+        font-size: 2.25rem;
+    }
+    .section-2 {
+        padding-top: 40px;    
+        padding-bottom: 40px;
+        padding-left: 80px;   
+        padding-right: 80px;
+    }
+    .section-3 {
+        padding-left: 80px;  /* lg:px-20 */
+        padding-right: 80px;
+    }
+}
+
+ @media only screen and (max-width: 900px) {
+    .banner {
+      height: 40vh;
+    }
+    .cover{
+      height: 40vh;
+    
+  }
+  
+.fadout {
+  
+   bottom: -3rem;
+   height: 20vw;
+   
+ }
+  }

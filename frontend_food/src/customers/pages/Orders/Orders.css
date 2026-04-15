@@ -1,0 +1,25 @@
+.order-component{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.order-head{
+  font-size: 1.25rem;
+    line-height: 1.75rem ;
+ text-align: center;
+ padding-top: 7px;
+ font-weight: 600;
+}
+.orders-list{
+   width: 100%;
+}
+.orders-list > * + * {
+    margin-top: 20px;
+}
+
+/* Large screens (≥1024px) */
+@media (min-width: 1024px) {
+    .orders-list {
+        width: 50%;
+    }
+}

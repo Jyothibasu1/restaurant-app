@@ -1,0 +1,32 @@
+.drawer-container {
+    width: 15vw;           
+    height: 100vh;       
+    display: flex;         
+    flex-direction: column;  
+    justify-content: center; 
+    font-size: 1.25rem;       
+    padding-top: 64px; 
+}
+.drawer-container > * + * {
+    margin-top: 32px;        
+}
+
+.drawer-item {
+   display: flex;         
+    align-items: center;   
+    cursor: pointer;       
+    padding-left: 20px;     
+    padding-right: 20px;
+}
+.drawer-item> * + * {
+    margin-left: 20px;     
+}
+
+.drawer-item-text {
+  display: inline-block;
+}
+@media (max-width: 1080px) {
+  .drawer-container {
+    width: 20vw; 
+  }
+}

@@ -1,0 +1,33 @@
+.orderTableCard{
+    margin-top: 4px;
+}
+.OrderTable-Con{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.OrderTable-header{
+     padding-top: 16px;
+    display: flex;  
+    align-items: center;
+}
+.OrderTable-header .MuiCardHeader-action {
+    margin-top: 4.8px;
+}
+.OrderTR {
+    cursor: pointer;
+}
+
+.OrderTR:hover {
+    background-color: rgba(0, 0, 0, 0.04); /* similar to MUI hover */
+}
+
+/* Remove border for last row cells */
+.OrderTR:last-of-type td,
+.OrderTR:last-of-type th {
+    border: 0;
+}
+.Order-Ingrdnts{
+    display: flex;
+     gap: 0.25rem ;
+     flex-wrap: wrap;
+}

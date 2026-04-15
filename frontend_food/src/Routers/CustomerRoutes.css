@@ -1,0 +1,8 @@
+.CRoute-Con{
+    position: relative;
+}
+.CRoute-Nav{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
