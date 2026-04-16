@@ -87,20 +87,1102 @@ The system allows users to browse restaurants, view food items, add to cart, pla
 ---
 
 ## 🗂️ Project Structure
-backend/
-├── controller/
-├── service/
-├── model/
-├── repository/
-├── security/
-└── config/
+├── 
+frontend_food
 
-frontend/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── redux/
-│ └── services/
+│   ├── 
+public
+
+│   │   ├── 
+favicon.ico
+
+│   │   ├── 
+index.html
+
+│   │   ├── 
+logo192.png
+
+│   │   ├── 
+logo512.png
+
+│   │   ├── 
+manifest.json
+
+│   │   └── 
+robots.txt
+
+│   ├── 
+src
+
+│   │   ├── 
+Admin
+
+│   │   │   ├── 
+AddRestaurants
+
+│   │   │   │   ├── 
+CreateRestaurantForm.css
+
+│   │   │   │   └── 
+CreateRestaurantForm.jsx
+
+│   │   │   ├── 
+Category
+
+│   │   │   │   ├── 
+Category.css
+
+│   │   │   │   ├── 
+Category.jsx
+
+│   │   │   │   ├── 
+CreateCategory.css
+
+│   │   │   │   └── 
+CreateCategory.jsx
+
+│   │   │   ├── 
+Dashboard
+
+│   │   │   │   ├── 
+AddRestaurantCard.css
+
+│   │   │   │   ├── 
+AddRestaurantCard.jsx
+
+│   │   │   │   ├── 
+AdminDashboard.css
+
+│   │   │   │   ├── 
+AdminDashboard.jsx
+
+│   │   │   │   ├── 
+RestaurantCard.css
+
+│   │   │   │   ├── 
+RestaurantCard.jsx
+
+│   │   │   │   ├── 
+RestaurantDashboard.css
+
+│   │   │   │   └── 
+RestaurantDashboard.jsx
+
+│   │   │   ├── 
+Details
+
+│   │   │   │   ├── 
+Details.css
+
+│   │   │   │   └── 
+Details.jsx
+
+│   │   │   ├── 
+Events
+
+│   │   │   │   ├── 
+EventCard.jsx
+
+│   │   │   │   ├── 
+Events.css
+
+│   │   │   │   └── 
+Events.jsx
+
+│   │   │   ├── 
+Food
+
+│   │   │   │   ├── 
+AddMenuForm.css
+
+│   │   │   │   ├── 
+AddMenuForm.jsx
+
+│   │   │   │   ├── 
+MenuItemTable.css
+
+│   │   │   │   ├── 
+MenuItemTable.jsx
+
+│   │   │   │   ├── 
+RestaurantsMenu.css
+
+│   │   │   │   └── 
+RestaurantsMenu.jsx
+
+│   │   │   ├── 
+Ingredients
+
+│   │   │   │   ├── 
+CreateIngredientCategory.css
+
+│   │   │   │   ├── 
+CreateIngredientCategory.jsx
+
+│   │   │   │   ├── 
+CreateIngredientForm.css
+
+│   │   │   │   ├── 
+CreateIngredientForm.jsx
+
+│   │   │   │   ├── 
+Ingredients.css
+
+│   │   │   │   └── 
+Ingredients.jsx
+
+│   │   │   ├── 
+Orders
+
+│   │   │   │   ├── 
+OrderTable.css
+
+│   │   │   │   ├── 
+OrderTable.jsx
+
+│   │   │   │   ├── 
+RestaurantsOrder.css
+
+│   │   │   │   └── 
+RestaurantsOrder.jsx
+
+│   │   │   ├── 
+utils
+
+│   │   │   │   └── 
+UploadToCloudnary.js
+
+│   │   │   ├── 
+Admin.css
+
+│   │   │   ├── 
+Admin.jsx
+
+│   │   │   ├── 
+AdminNavbar.css
+
+│   │   │   ├── 
+AdminNavbar.jsx
+
+│   │   │   ├── 
+AdminSidebar.css
+
+│   │   │   └── 
+AdminSidebar.jsx
+
+│   │   ├── 
+config
+
+│   │   │   ├── 
+api.js
+
+│   │   │   └── 
+logic.jsx
+
+│   │   ├── 
+customers
+
+│   │   │   ├── 
+components
+
+│   │   │   │   ├── 
+Address
+
+│   │   │   │   │   ├── 
+AddressCard.css
+
+│   │   │   │   │   ├── 
+AddressCard.jsx
+
+│   │   │   │   │   └── 
+NewAddressModal.jsx
+
+│   │   │   │   ├── 
+CartItem
+
+│   │   │   │   │   ├── 
+CartItemCard.css
+
+│   │   │   │   │   └── 
+CartItemCard.jsx
+
+│   │   │   │   ├── 
+Login
+
+│   │   │   │   │   └── 
+Login.jsx
+
+│   │   │   │   ├── 
+MenuItem
+
+│   │   │   │   │   ├── 
+MenuItemCard.css
+
+│   │   │   │   │   └── 
+MenuItemCard.jsx
+
+│   │   │   │   ├── 
+MultiItemCarousel
+
+│   │   │   │   │   ├── 
+CarouselItem.css
+
+│   │   │   │   │   ├── 
+CarouselItem.jsx
+
+│   │   │   │   │   └── 
+MultiItemCarousel.jsx
+
+│   │   │   │   ├── 
+Navbar
+
+│   │   │   │   │   ├── 
+Navbar.css
+
+│   │   │   │   │   └── 
+Navbar.jsx
+
+│   │   │   │   ├── 
+Order
+
+│   │   │   │   │   ├── 
+OrderCard.css
+
+│   │   │   │   │   └── 
+OrderCard.jsx
+
+│   │   │   │   ├── 
+ProfileNavigation
+
+│   │   │   │   │   ├── 
+ProfileNavigation.css
+
+│   │   │   │   │   └── 
+ProfileNavigation.jsx
+
+│   │   │   │   ├── 
+Register
+
+│   │   │   │   │   └── 
+Register.jsx
+
+│   │   │   │   ├── 
+RestaurantCard
+
+│   │   │   │   │   ├── 
+Restaurant.css
+
+│   │   │   │   │   ├── 
+RestaurantCard.css
+
+│   │   │   │   │   └── 
+RestaurantCard.jsx
+
+│   │   │   │   └── 
+Search
+
+│   │   │   │       ├── 
+PopularCuisines.css
+
+│   │   │   │       ├── 
+PopularCuisines.jsx
+
+│   │   │   │       ├── 
+Search.css
+
+│   │   │   │       ├── 
+Search.jsx
+
+│   │   │   │       ├── 
+SearchDishCard.css
+
+│   │   │   │       └── 
+SearchDishCard.jsx
+
+│   │   │   ├── 
+pages
+
+│   │   │   │   ├── 
+Auth
+
+│   │   │   │   │   ├── 
+Auth.jsx
+
+│   │   │   │   │   ├── 
+PasswordChangeSuccess.jsx
+
+│   │   │   │   │   ├── 
+ResetPasswordForm.jsx
+
+│   │   │   │   │   └── 
+ResetPaswordRequest.jsx
+
+│   │   │   │   ├── 
+Cart
+
+│   │   │   │   │   ├── 
+Cart.css
+
+│   │   │   │   │   ├── 
+Cart.jsx
+
+│   │   │   │   │   └── 
+totalPay.js
+
+│   │   │   │   ├── 
+Favorite
+
+│   │   │   │   │   ├── 
+Favorite.css
+
+│   │   │   │   │   └── 
+Favorite.jsx
+
+│   │   │   │   ├── 
+Home
+
+│   │   │   │   │   ├── 
+HomePage.css
+
+│   │   │   │   │   └── 
+HomePage.jsx
+
+│   │   │   │   ├── 
+NotFound
+
+│   │   │   │   │   ├── 
+NotFound.css
+
+│   │   │   │   │   └── 
+NotFound.jsx
+
+│   │   │   │   ├── 
+Orders
+
+│   │   │   │   │   ├── 
+Orders.css
+
+│   │   │   │   │   └── 
+Orders.jsx
+
+│   │   │   │   ├── 
+PaymentSuccess
+
+│   │   │   │   │   ├── 
+PaymentSuccess.css
+
+│   │   │   │   │   └── 
+PaymentSuccess.jsx
+
+│   │   │   │   ├── 
+Profile
+
+│   │   │   │   │   ├── 
+CustomerEvents.css
+
+│   │   │   │   │   ├── 
+CustomerEvents.jsx
+
+│   │   │   │   │   ├── 
+Notifications.css
+
+│   │   │   │   │   ├── 
+Notifications.jsx
+
+│   │   │   │   │   ├── 
+Profile.jsx
+
+│   │   │   │   │   ├── 
+ProfilePage.css
+
+│   │   │   │   │   ├── 
+UserProfile.css
+
+│   │   │   │   │   └── 
+UserProfile.jsx
+
+│   │   │   │   ├── 
+Restaurant
+
+│   │   │   │   │   ├── 
+Restaurant.css
+
+│   │   │   │   │   └── 
+Restaurant.jsx
+
+│   │   │   │   └── 
+UsersAdresses
+
+│   │   │   │       ├── 
+UsersAddresses.css
+
+│   │   │   │       └── 
+UsersAddresses.jsx
+
+│   │   │   └── 
+util
+
+│   │   │       ├── 
+CategorizeIngredients.js
+
+│   │   │       └── 
+ValidToOrder.jsx
+
+│   │   ├── 
+Data
+
+│   │   │   ├── 
+Demo.jsx
+
+│   │   │   ├── 
+index.html
+
+│   │   │   ├── 
+Ingredients.js
+
+│   │   │   ├── 
+restaurents.js
+
+│   │   │   └── 
+topMeels.js
+
+│   │   ├── 
+Routers
+
+│   │   │   ├── 
+AdminRouters.jsx
+
+│   │   │   ├── 
+CustomerRoutes.css
+
+│   │   │   ├── 
+CustomerRoutes.jsx
+
+│   │   │   └── 
+Routers.jsx
+
+│   │   ├── 
+State
+
+│   │   │   ├── 
+Admin
+
+│   │   │   │   ├── 
+Ingredients
+
+│   │   │   │   │   ├── 
+Action.js
+
+│   │   │   │   │   ├── 
+ActionType.js
+
+│   │   │   │   │   └── 
+Reducer.js
+
+│   │   │   │   ├── 
+Order
+
+│   │   │   │   │   ├── 
+ActionType.js
+
+│   │   │   │   │   ├── 
+restaurants.order.action.js
+
+│   │   │   │   │   └── 
+restaurants.order.reducer.js
+
+│   │   │   │   └── 
+Restaurants
+
+│   │   │   │       ├── 
+ActionType.js
+
+│   │   │   │       ├── 
+admin.action.js
+
+│   │   │   │       └── 
+Reducer.js
+
+│   │   │   ├── 
+Authentication
+
+│   │   │   │   ├── 
+Action.js
+
+│   │   │   │   ├── 
+ActionType.js
+
+│   │   │   │   └── 
+Reducer.js
+
+│   │   │   ├── 
+Customers
+
+│   │   │   │   ├── 
+Cart
+
+│   │   │   │   │   ├── 
+ActionCreators.js
+
+│   │   │   │   │   ├── 
+ActionTypes.js
+
+│   │   │   │   │   ├── 
+cart.action.js
+
+│   │   │   │   │   └── 
+Reducer.js
+
+│   │   │   │   ├── 
+Menu
+
+│   │   │   │   │   ├── 
+ActionCreators.js
+
+│   │   │   │   │   ├── 
+ActionType.js
+
+│   │   │   │   │   ├── 
+menu.action.js
+
+│   │   │   │   │   └── 
+Reducer.js
+
+│   │   │   │   ├── 
+Orders
+
+│   │   │   │   │   ├── 
+Action.js
+
+│   │   │   │   │   ├── 
+ActionCreators.js
+
+│   │   │   │   │   ├── 
+ActionTypes.js
+
+│   │   │   │   │   └── 
+order.reducer.js
+
+│   │   │   │   └── 
+Restaurant
+
+│   │   │   │       ├── 
+ActionCreateros.js
+
+│   │   │   │       ├── 
+ActionTypes.js
+
+│   │   │   │       ├── 
+Reducer.js
+
+│   │   │   │       └── 
+restaurant.action.js
+
+│   │   │   ├── 
+Store
+
+│   │   │   │   └── 
+store.js
+
+│   │   │   └── 
+SuperAdmin
+
+│   │   │       ├── 
+superAdmin.action.js
+
+│   │   │       ├── 
+superAdmin.actionType.js
+
+│   │   │       └── 
+superAdmin.reducer.js
+
+│   │   ├── 
+SuperAdmin
+
+│   │   │   ├── 
+Restaurants
+
+│   │   │   │   ├── 
+RestaurantTable.jsx
+
+│   │   │   │   └── 
+SuperAdminRestaurant.jsx
+
+│   │   │   ├── 
+SuperAdminCustomerTable
+
+│   │   │   │   ├── 
+Customers.jsx
+
+│   │   │   │   └── 
+SuperAdminCustomerTable.jsx
+
+│   │   │   ├── 
+SuperAdminDashboard
+
+│   │   │   │   └── 
+SuperAdminDashboard.jsx
+
+│   │   │   ├── 
+SuperAdmin.css
+
+│   │   │   ├── 
+SuperAdmin.jsx
+
+│   │   │   ├── 
+SuperAdminSidebar.css
+
+│   │   │   └── 
+SuperAdminSideBar.jsx
+
+│   │   ├── 
+theme
+
+│   │   │   └── 
+DarkTheme.js
+
+│   │   ├── 
+App.css
+
+│   │   ├── 
+App.js
+
+│   │   ├── 
+App.test.js
+
+│   │   ├── 
+index.css
+
+│   │   ├── 
+index.js
+
+│   │   ├── 
+logo.svg
+
+│   │   ├── 
+reportWebVitals.js
+
+│   │   ├── 
+setupTests.js
+
+│   │   └── 
+tailwind.config.js
+
+│   ├── 
+.gitignore
+
+│   ├── 
+package-lock.json
+
+│   ├── 
+package.json
+
+│   ├── 
+postcss.config.js
+
+│   ├── 
+README.md
+
+│   └── 
+tailwind.config.js
+
+├── 
+MY_FOOD_APP
+
+│   ├── 
+.mvn
+
+│   │   └── 
+wrapper
+
+│   │       └── 
+maven-wrapper.properties
+
+│   ├── 
+src
+
+│   │   ├── 
+main
+
+│   │   │   ├── 
+java
+
+│   │   │   │   └── 
+com
+
+│   │   │   │       └── 
+food
+
+│   │   │   │           ├── 
+config
+
+│   │   │   │           │   ├── 
+domine
+
+│   │   │   │           │   │   ├── 
+OrderStatus.java
+
+│   │   │   │           │   │   └── 
+USER_ROLE.java
+
+│   │   │   │           │   ├── 
+Config.java
+
+│   │   │   │           │   ├── 
+JwtConstant.java
+
+│   │   │   │           │   ├── 
+JwtService.java
+
+│   │   │   │           │   └── 
+TokenValidator.java
+
+│   │   │   │           ├── 
+controller
+
+│   │   │   │           │   ├── 
+AdminMenuItemController.java
+
+│   │   │   │           │   ├── 
+AdminOrderController.java
+
+│   │   │   │           │   ├── 
+AdminRestaurantController.java
+
+│   │   │   │           │   ├── 
+AuthController.java
+
+│   │   │   │           │   ├── 
+CartController.java
+
+│   │   │   │           │   ├── 
+CategoryController.java
+
+│   │   │   │           │   ├── 
+EventController.java
+
+│   │   │   │           │   ├── 
+IngredientsController.java
+
+│   │   │   │           │   ├── 
+MenuItemController.java
+
+│   │   │   │           │   ├── 
+NotificationController.java
+
+│   │   │   │           │   ├── 
+OrderController.java
+
+│   │   │   │           │   ├── 
+PaymentController.java
+
+│   │   │   │           │   ├── 
+ResetPasswordController.java
+
+│   │   │   │           │   ├── 
+RestaurantController.java
+
+│   │   │   │           │   ├── 
+ReviewController.java
+
+│   │   │   │           │   ├── 
+SupperAdminController.java
+
+│   │   │   │           │   └── 
+UserController.java
+
+│   │   │   │           ├── 
+dto
+
+│   │   │   │           │   └── 
+RestaurantDto.java
+
+│   │   │   │           ├── 
+entity
+
+│   │   │   │           │   ├── 
+Address.java
+
+│   │   │   │           │   ├── 
+Cart.java
+
+│   │   │   │           │   ├── 
+CartItem.java
+
+│   │   │   │           │   ├── 
+Category.java
+
+│   │   │   │           │   ├── 
+ContactInformation.java
+
+│   │   │   │           │   ├── 
+Coupon.java
+
+│   │   │   │           │   ├── 
+Events.java
+
+│   │   │   │           │   ├── 
+Food.java
+
+│   │   │   │           │   ├── 
+IngredientCategory.java
+
+│   │   │   │           │   ├── 
+IngredientsItem.java
+
+│   │   │   │           │   ├── 
+Notification.java
+
+│   │   │   │           │   ├── 
+Order.java
+
+│   │   │   │           │   ├── 
+OrderItem.java
+
+│   │   │   │           │   ├── 
+PasswordResetToken.java
+
+│   │   │   │           │   ├── 
+Payment.java
+
+│   │   │   │           │   ├── 
+PaymentResponse.java
+
+│   │   │   │           │   ├── 
+Restaurant.java
+
+│   │   │   │           │   ├── 
+Review.java
+
+│   │   │   │           │   └── 
+User.java
+
+│   │   │   │           ├── 
+repository
+
+│   │   │   │           │   ├── 
+AddressRepository.java
+
+│   │   │   │           │   ├── 
+CartItemRepository.java
+
+│   │   │   │           │   ├── 
+CartRepository.java
+
+│   │   │   │           │   ├── 
+CategoryRepository.java
+
+│   │   │   │           │   ├── 
+EventRepository.java
+
+│   │   │   │           │   ├── 
+foodRepository.java
+
+│   │   │   │           │   ├── 
+IngredientsCategoryRepository.java
+
+│   │   │   │           │   ├── 
+IngredientsItemRepository.java
+
+│   │   │   │           │   ├── 
+NotificationRepository.java
+
+│   │   │   │           │   ├── 
+OrderItemRepository.java
+
+│   │   │   │           │   ├── 
+OrderRepository.java
+
+│   │   │   │           │   ├── 
+PasswordResetTokenRepository.java
+
+│   │   │   │           │   ├── 
+RestaurantRepository.java
+
+│   │   │   │           │   ├── 
+ReviewRepository.java
+
+│   │   │   │           │   └── 
+UserRepository.java
+
+│   │   │   │           ├── 
+request
+
+│   │   │   │           │   ├── 
+AddCartItemRequest.java
+
+│   │   │   │           │   ├── 
+CreateFoodRequest.java
+
+│   │   │   │           │   ├── 
+CreateIngredientCategoryRequest.java
+
+│   │   │   │           │   ├── 
+CreateIngredientRequest.java
+
+│   │   │   │           │   ├── 
+CreateOrderRequest.java
+
+│   │   │   │           │   ├── 
+CreateRestaurantRequest.java
+
+│   │   │   │           │   ├── 
+Ingredient.java
+
+│   │   │   │           │   ├── 
+LoginRequest.java
+
+│   │   │   │           │   ├── 
+ResetPasswordRequest.java
+
+│   │   │   │           │   ├── 
+ReviewRequest.java
+
+│   │   │   │           │   └── 
+UpdateCartItemRequest.java
+
+│   │   │   │           ├── 
+response
+
+│   │   │   │           │   ├── 
+ApiResponse.java
+
+│   │   │   │           │   └── 
+AuthResponse.java
+
+│   │   │   │           ├── 
+service
+
+│   │   │   │           │   ├── 
+CartItemService.java
+
+│   │   │   │           │   ├── 
+CartSerive.java
+
+│   │   │   │           │   ├── 
+CartServiceImplementation.java
+
+│   │   │   │           │   ├── 
+CategoryService.java
+
+│   │   │   │           │   ├── 
+CategoryServiceImplementation.java
+
+│   │   │   │           │   ├── 
+CustomeUserServiceImplementation.java
+
+│   │   │   │           │   ├── 
+EventServiceImplementation.java
+
+│   │   │   │           │   ├── 
+EventsService.java
+
+│   │   │   │           │   ├── 
+FoodService.java
+
+│   │   │   │           │   ├── 
+FoodServiceImplementation.java
+
+│   │   │   │           │   ├── 
+IngredientsService.java
+
+│   │   │   │           │   ├── 
+IngredientsServiceImplementation.java
+
+│   │   │   │           │   ├── 
+NotificationService.java
+
+│   │   │   │           │   ├── 
+NotificationServiceImplementation.java
+
+│   │   │   │           │   ├── 
+OrderItemService.java
+
+│   │   │   │           │   ├── 
+OrderItemServiceImplementation.java
+
+│   │   │   │           │   ├── 
+OrderService.java
+
+│   │   │   │           │   ├── 
+OrderServiceImplementation.java
+
+│   │   │   │           │   ├── 
+PasswordResetTokenService.java
+
+│   │   │   │           │   ├── 
+PasswordResetTokenServiceImplementation.java
+
+│   │   │   │           │   ├── 
+PaymentService.java
+
+│   │   │   │           │   ├── 
+PaymentServiceImplementation.java
+
+│   │   │   │           │   ├── 
+RestaurantService.java
+
+│   │   │   │           │   ├── 
+RestaurantServiceImplementation.java
+
+│   │   │   │           │   ├── 
+ReviewSerive.java
+
+│   │   │   │           │   ├── 
+ReviewServiceImplementation.java
+
+│   │   │   │           │   ├── 
+UserService.java
+
+│   │   │   │           │   └── 
+UserServiceImplementation.java
+
+│   │   │   │           └── 
+MyFoodAppApplication.java
+
+│   │   │   └── 
+resources
+
+│   │   │       └── 
+application.properties
+
+│   │   └── 
+test
+
+│   │       └── 
+java
+
+│   │           └── 
+com
+
+│   │               └── 
+food
+
+│   │                   └── 
+MyFoodAppApplicationTests.java
+
+│   ├── 
+.gitattributes
+
+│   ├── 
+.gitignore
+
+│   ├── 
+mvnw
+
+│   ├── 
+mvnw.cmd
+
+│   └── 
+pom.xml
+
+├── 
+LICENSE
+
+└── 
+README.md
+
+
 
 
 
